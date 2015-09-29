@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <default revision="master" remote="origin" sync-c="true"/>
+  <include name="include/servers.xml"/>
+
+<!-- Ironic projects -->
+  <project groups="core" path="bifrost" name="openstack/bifrost"/>
+  <project groups="core" path="coreos-image-builder" name="openstack/coreos-image-builder"/>
+  <project groups="core" path="ironic" name="openstack/ironic"/>
+  <project groups="core" path="ironic-inspector" name="openstack/ironic-inspector"/>
+  <project groups="core" path="ironic-lib" name="openstack/ironic-lib"/>
+  <project groups="core" path="ironic-python-agent" name="openstack/ironic-python-agent"/>
+  <project groups="core" path="ironic-specs" name="openstack/ironic-specs"/>
+  <project groups="core" path="ironic-webclient" name="openstack/ironic-webclient"/>
+  <project groups="core" path="python-dracclient" name="openstack/python-dracclient"/>
+  <project groups="core" path="python-ironic-inspector-client" name="openstack/python-ironic-inspector-client"/>
+  <project groups="core" path="python-ironicclient" name="openstack/python-ironicclient"/>
+
+</manifest>
